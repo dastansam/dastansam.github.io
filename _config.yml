@@ -1,0 +1,6 @@
+# Jekyll config
+name: Dastan Samatov
+description: Personal website
+url: "https://dastansam.github.io"
+markdown: kramdown
+highlighter: rouge
