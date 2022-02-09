@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "Resume"
 permalink: /
 ---
 
@@ -79,7 +80,7 @@ Port existing **Solidity** contract into **Solana** program and **CosmWASM** sma
 
 ***Substrate chain indexer***
 
-Build personal indexer script for **Substrate** chains. As part of the task, also contributed to open-source library: [**@open-web3js*](https://github.com/open-web3-stack/open-web3.js)
+Built personal indexer script for **Substrate** chains. As part of the task, also contributed to open-source library: [**@open-web3js*](https://github.com/open-web3-stack/open-web3.js)
 
 ***Other***
 
