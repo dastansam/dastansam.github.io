@@ -4,7 +4,6 @@ title: "Resume"
 permalink: /
 ---
 
-## Dastanbek (Dastan) Samatov
 <style type="text/css">
   .wrapper {
     max-width: -webkit-calc(960px - (30px * 2));
