@@ -35,7 +35,7 @@ Part of several projects mostly focused in **Polkadot** ecosystem. Responsible f
 
 Some of the highlights of my time at Limechain:
 
-***DeFi***
+***DeFi***  
 *Since I am under NDA, I can't disclose the name and nature of the project, but it is a DApp in Polkadot ecosystem*
 
 - Implementing, writing and testing smart contracts in [**Ink!**](https://paritytech.github.io/ink/) smart contract language
@@ -61,11 +61,17 @@ Some of the highlights of my time at Limechain:
 
 **Personal projects**
 
-This section lists some of the personal projects that I am proud of
+This section lists some of the personal projects that I am proud of.
 
-***Decentralized Auctioned NFT Marketplace**
+***Fiat on-off ramp***
 
-For my senior thesis in Computer Science major in American University in Bulgaria, I have worked on a proof-of-concept project for the topic of managed decentralization. The project was aimed to explore how enterprises and companies could benefit from blockchain and at the same time keeping the same level of privacy and thoroughput.
+A **Web3 Foundation** grant that aims to connect banking interfaces with **Polkadot** ecosystem. I am responsible for building **Substrate** offchain-worker pallet, writing tests, as well as maintaining the project. For more information about the project, refer to the original grant proposal [here](https://github.com/w3f/Grants-Program/blob/master/applications/FIAT-on-off-ramp.md).
+
+*This project is Work In Progress*
+
+***Decentralized Auctioned NFT Marketplace***
+
+For my senior thesis in Computer Science, I worked on a proof-of-concept project for the topic of *managed decentralization*. The project was aimed to explore how enterprises and companies could benefit from blockchain and at the same time keeping the same level of privacy and thoroughput.
 
 In the project, the goal was to build a decentralized network of nodes that host a backend for an **NFT Marketplace**. Backend simply serves and matches orders. Marketplace and orders function with the use of **Order Commitments**. 
 
@@ -73,7 +79,7 @@ Consensus of the network is a simple **Auction** protocol smart contract. It is 
 
 I successfully delivered and demonstrated my proof-of-concept project and received and exceptional grade. Final version of the project is raw and it is still work in progress. Some of the key issues need to be addressed before any production grade usage.
 
-The network and backend was built in **Rust**, consensus and marketplace in **Solidity** and frontend in **React**.
+The network and backend was built in **Rust**, consensus and marketplace in **Solidity** and frontend in **React**. Many design and architecture patterns are inspired by **Substrate** and **FileCoin**.
 
 **Upwork and Freelance, January, 2020 - Present, <br>Blockchain and Full Stack developer**
 
@@ -81,11 +87,9 @@ Started my programming career as a freelancer and later picked up **Upwork**. Mo
 
 Some of the projects I was part of:
 
-***Fiat on-off ramp***
+***Web3 projects***
 
-A **Web3 Foundation** grant that aims to connect banking interfaces with **Polkadot** ecosystem. I am responsible for building **Substrate** offchain-worker pallet, writing tests, as well as maintaining the project. For more information about the project, refer to the original grant proposal [here](https://github.com/w3f/Grants-Program/blob/master/applications/FIAT-on-off-ramp.md).
-
-*This project is Work In Progress*
+I usually do a lot of consultations and development for teams and individuals that want to get the best out f
 
 ***Bulk sender contract in Solana and Cosmos***
 
