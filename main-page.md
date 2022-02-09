@@ -1,5 +1,5 @@
-layout: page
-title: "Dastan's website"
-permalink: /
+layout: page  
+title: "Dastan's website"  
+permalink: /  
 
 ## Dastan Samatov
