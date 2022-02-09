@@ -23,13 +23,15 @@ permalink: /
   img[src*="#profile"] {
     width: 150px;
     height: 150px;
-    margin-left: 74%;
+    /* margin-left: 74%; */
     position: relative;
   }
 </style>
 
-### Blockchain and Full Stack Developer ![Me](/assets/profile.jpeg#profile)
+### Blockchain and Full Stack Developer
 [GitHub 1](https://github.com/dastansam) | [Github 2](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com) | [Linkedin](https://www.linkedin.com/in/dastanbek-samatov-30ab71128/)
+
+![Me](/assets/profile.jpeg#profile)
 
 Experienced blockchain and web3 developer highly interested in peer-to-peer solutions, blockchain scalability and interoperability.
 
