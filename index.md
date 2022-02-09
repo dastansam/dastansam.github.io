@@ -37,7 +37,7 @@ Started my programming career as a freelancer and later picked up **Upwork**. Mo
 
 Some of the highlights:
 
-#### Fiat on-off ramp
+### Fiat on-off ramp
 
 A **Web3 Foundation** grant that aims to connect banking interfaces with **Polkadot** ecosystem. I am responsible for building **Substrate** offchain-worker pallet, writing tests, as well as maintaining the project. For more information about the project, refer to the original grant proposal [here](https://github.com/w3f/Grants-Program/blob/master/applications/FIAT-on-off-ramp.md).
 
