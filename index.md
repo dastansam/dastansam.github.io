@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Dastan's website"
 permalink: /
 ---
 
@@ -26,7 +25,7 @@ permalink: /
 
 [GitHub](https://github.com/dastansam) | [Github](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com)
 
-Experienced blockchain developer highly interested in peer-to-peer solutions, blockchain scalability, interoperability.
+Experienced blockchain and web3 developer highly interested in peer-to-peer solutions, blockchain scalability and interoperability.
 
 # Experience 
 ---
@@ -35,7 +34,6 @@ Experienced blockchain developer highly interested in peer-to-peer solutions, bl
 Part of several projects mostly focused in **Polkadot** ecosystem. Responsible for end-to-end delivery of features, from gathering requirements, to designing solutions to implementing and testing them.
 
 Some of the highlights of my time at Limechain:
-
 
 ***DeFi***
 *Since I am under NDA, I can't disclose the name and nature of the project, but it is a DApp in Polkadot ecosystem*
@@ -96,6 +94,7 @@ There are also several other web3 projects I was part of. Some of the notable ex
 - First place at university Math contest among Math majors
 - Participant of computational olympiads
 - Subject tutor and student assistant in **Java**
+- Senior thesis with **excellent** mark
 
 # Activities
 
@@ -105,4 +104,3 @@ There are also several other web3 projects I was part of. Some of the notable ex
 
 - Open Web3 js: [here](https://github.com/open-web3-stack/open-web3.js)
 - **Subsembly** and **AS SCALE Codec**
-- 
