@@ -39,7 +39,7 @@ Some of the highlights of my time at Limechain:
 
 - Implementing, writing and testing smart contracts in [**Ink!**](https://paritytech.github.io/ink/) smart contract language
 - Responsible for implementing Math library
-- Reduced gas usage by 50% making a critical fix in the implementation of wrapper Math types- 
+- Reduced gas usage by 50% making a critical fix in the implementation of wrapper types
 - Designed and implemented developer documentation
 - Designed several CI/CD pipelines for testing and building projects/libraries
 - Mentoring and code reviewing
@@ -60,7 +60,7 @@ Some of the highlights of my time at Limechain:
 
 **Personal projects**
 
-This section lists some of the personal projects that I am proud of.
+This section lists some of the personal and freelance projects that I am proud of.
 
 ***Fiat on-off ramp***
 
@@ -96,7 +96,7 @@ Port existing **Solidity** contract into **Solana** program and **CosmWASM** sma
 
 Built personal indexer script for **Substrate** chains. As part of the task, also contributed to open-source library: [**@open-web3js*](https://github.com/open-web3-stack/open-web3.js)
 
-***Crypto and Fiat price indexer**
+***Crypto and Fiat price indexer***
 
 Tool for indexing daily prices of cryptocurrencies and fiat. Open source.
 
