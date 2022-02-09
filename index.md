@@ -19,9 +19,16 @@ permalink: /
   li {
     line-height: 30px;
   }
+
+  img[src*="#profile"] {
+    width: 150px;
+    height: 150px;
+    margin-left: 74%;
+    position: relative;
+  }
 </style>
 
-### Blockchain and Full Stack Developer
+### Blockchain and Full Stack Developer ![Me](/assets/profile.jpeg#profile)
 [GitHub 1](https://github.com/dastansam) | [Github 2](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com) | [Linkedin](https://www.linkedin.com/in/dastanbek-samatov-30ab71128/)
 
 Experienced blockchain and web3 developer highly interested in peer-to-peer solutions, blockchain scalability and interoperability.
@@ -86,6 +93,10 @@ Started my programming career as a freelancer and later picked up **Upwork**. Mo
 
 Some of the projects I was part of:
 
+***Crypto Portfolio Tracker***
+
+Portfolio tracker and exchange platform. Worked on integrating exchange APIs and blockchains.
+
 ***Bulk sender contract in Solana and Cosmos***
 
 Port existing **Solidity** contract into **Solana** program and **CosmWASM** smart contract.
@@ -116,10 +127,19 @@ Built a simple NFT marketplace and gallery.
 - Senior thesis with **excellent** mark
 
 # Activities
+---
 
 - 2 times winner of **AUBG Soccer League**
 
+# Languages and technologies
+---
+
+Confident: **NodeJs**, **Rust**, **Solidity**, **Substrate**, **Ink!**, **Python**, **React**, **AssemblyScript**, **git**
+Some experience: **C++**, **Solana**, **CosmosSDK**, **AWS**
+Interested: **ML**, **AI**
+
 # Open source contributions
+---
 
 - Open Web3 js: [here](https://github.com/open-web3-stack/open-web3.js)
 - **Subsembly** and **AS SCALE Codec**
