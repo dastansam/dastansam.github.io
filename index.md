@@ -26,9 +26,64 @@ permalink: /
 
 [GitHub](https://github.com/dastansam) | [Github](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com)
 
-Experienced developer highly interested in peer-to-peer solutions, blockchain scalability, interoperability.
+Experienced blockchain developer highly interested in peer-to-peer solutions, blockchain scalability, interoperability.
 
 ## Experience 
 ---
 
-** Limechain, June, 2020 - February, 2022 <br>Blockchain Developer</br> **
+**Upwork and Freelance, January, 2020 - Present, <br>Blockchain and Full Stack developer**
+
+Started my programming career as a freelancer and later picked up **Upwork**. Mostly specialize on projects in the blockchain space and provide full cycle development services as well as consultations.
+
+Some of the highlights:
+
+#### Fiat on-off ramp
+
+A **Web3 Foundation** grant that aims to connect banking interfaces with **Polkadot** ecosystem. I am responsible for building **Substrate** offchain-worker pallet, writing tests, as well as maintaining the project. For more information about the project, refer to the original grant proposal [here](https://github.com/w3f/Grants-Program/blob/master/applications/FIAT-on-off-ramp.md).
+
+*This project is Work In Progress*
+
+#### Bulk sender contract in Solana and Cosmos
+
+Port existing **Solidity** contract into **Solana** program and **CosmWASM** smart contract.
+
+*This project is Work In Progress**
+
+#### Substrate chain indexer
+
+Build personal indexer script for **Substrate** chains. As part of the task, also contributed to open-source library: [**@open-web3js*](https://github.com/open-web3-stack/open-web3.js)
+
+#### Other
+
+There are also several other web3 projects I was part of. Some of the notable examples are: *Copyright Protection App*, *NFT Gallery*, *Decentralized Exchange*, *NFT Marketplace*, etc.
+
+**Limechain, June, 2020 - February, 2022 <br>Blockchain Developer**
+
+Part of several projects mostly focuesd in **Polkadot** ecosystem. Responsible for end-to-end delivery of features, from gathering requirements, to designing solutions to implementing and testing them.
+
+Some of the highlights of my time at Limechain:
+
+#### DeFi
+
+*Since I am under NDA, I can't disclose the name and nature of the project, but it is a DApp in Polkadot ecosystem*
+
+- Implementing, writing and testing smart contracts in [**Ink!**](https://paritytech.github.io/ink/) smart contract language
+- Responsible for implementing Math library
+- Reduced gas usage by 50% making a critical fix in the implementation of wrapper Math types- 
+- Designed and implemented developer documentation
+- Designed several CI/CD pipelines for testing and building projects/libraries
+- Mentoring and code reviewing
+
+#### Subsembly and AssemblyScript runtime
+- Successfully delivered 2 [**Web3 Foundation**](https://web3.foundation/grants/) grants
+- Completed proof-of-concept project on building **WASM** runtime in **AssemblyScript**
+- Worked on design and implementation of library for building **Substrate WASM** runtimes in **AssemblyScript** - **Subsembly**
+- Closely worked and interacted with **Substrate** source code
+- Designed and implemented end-to-end testing architecture
+- Presented **Subsembly** at weekly **Substrate Seminar** podcast
+- Part of **Substrate Builders Program**
+
+#### SCALE Codec in AssemblyScript
+- Core developer and maintainer
+- Writing unit and benchmark tests
+- Documentation
