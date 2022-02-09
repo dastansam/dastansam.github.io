@@ -23,7 +23,7 @@ permalink: /
 
 ### Blockchain and Full Stack Developer
 
-[GitHub](https://github.com/dastansam) | [Github](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com)
+[GitHub](https://github.com/dastansam) | [Github](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com) | [Linkedin](https://www.linkedin.com/in/dastanbek-samatov-30ab71128/)
 
 Experienced blockchain and web3 developer highly interested in peer-to-peer solutions, blockchain scalability and interoperability.
 
