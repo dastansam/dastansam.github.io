@@ -60,6 +60,22 @@ Some of the highlights of my time at Limechain:
 - Writing unit and benchmark tests
 - Documentation
 
+**Personal projects**
+
+This section lists some of the personal projects that I am proud of
+
+***Decentralized Auctioned NFT Marketplace**
+
+For my senior thesis in Computer Science major in American University in Bulgaria, I have worked on a proof-of-concept project for the topic of managed decentralization. The project was aimed to explore how enterprises and companies could benefit from blockchain and at the same time keeping the same level of privacy and thoroughput.
+
+In the project, the goal was to build a decentralized network of nodes that host a backend for an **NFT Marketplace**. Backend simply serves and matches orders. Marketplace and orders function with the use of **Order Commitments**. 
+
+Consensus of the network is a simple **Auction** protocol smart contract. It is also called a **Proof-of-Donation**. Essentially, whichever node bids the most amount of value to the time slot, will be the winner and **main processor/backend**(validator) at that slot. Nodes are incentivized by commissions from gossiping and matching orders. **Main backend** in a given slot, gets to match all the orders in that slot.
+
+I successfully delivered and demonstrated my proof-of-concept project and received and exceptional grade. Final version of the project is raw and it is still work in progress. Some of the key issues need to be addressed before any production grade usage.
+
+The network and backend was built in **Rust**, consensus and marketplace in **Solidity** and frontend in **React**.
+
 **Upwork and Freelance, January, 2020 - Present, <br>Blockchain and Full Stack developer**
 
 Started my programming career as a freelancer and later picked up **Upwork**. Mostly specialize on projects in the blockchain space and provide full cycle development services as well as consultations.
