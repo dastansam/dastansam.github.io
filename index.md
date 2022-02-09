@@ -64,7 +64,7 @@ This section lists some of the personal projects that I am proud of.
 
 ***Fiat on-off ramp***
 
-A **Web3 Foundation** grant that aims to connect banking interfaces with **Polkadot** ecosystem. I am responsible for building **Substrate** offchain-worker pallet, writing tests, as well as maintaining the project. For more information about the project, refer to the original grant proposal [here](https://github.com/w3f/Grants-Program/blob/master/applications/FIAT-on-off-ramp.md).
+A **Web3 Foundation** grant that aims to connect banking interfaces with **Polkadot** ecosystem. I am responsible for building **Substrate** offchain-worker pallet, writing tests, as well as maintaining the project. For more information about it, refer to the original grant proposal [here](https://github.com/w3f/Grants-Program/blob/master/applications/FIAT-on-off-ramp.md).
 
 *This project is Work In Progress*
 
@@ -86,10 +86,6 @@ Started my programming career as a freelancer and later picked up **Upwork**. Mo
 
 Some of the projects I was part of:
 
-***Web3 projects***
-
-I usually do a lot of consultations and development for teams and individuals that want to get the best out f
-
 ***Bulk sender contract in Solana and Cosmos***
 
 Port existing **Solidity** contract into **Solana** program and **CosmWASM** smart contract.
@@ -100,9 +96,13 @@ Port existing **Solidity** contract into **Solana** program and **CosmWASM** sma
 
 Built personal indexer script for **Substrate** chains. As part of the task, also contributed to open-source library: [**@open-web3js*](https://github.com/open-web3-stack/open-web3.js)
 
-***Other***
+***Crypto and Fiat price indexer**
 
-There are also several other web3 projects I was part of. Some of the notable examples are: *Copyright Protection App*, *NFT Gallery*, *Decentralized Exchange*, *NFT Marketplace*, etc.
+Tool for indexing daily prices of cryptocurrencies and fiat. Open source.
+
+***NFT Marketplace and Gallery***
+
+Built a simple NFT marketplace and gallery.
 
 # Education
 ---
