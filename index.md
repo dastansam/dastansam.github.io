@@ -135,9 +135,9 @@ Built a simple NFT marketplace and gallery.
 # Languages and technologies
 ---
 
-Confident: **NodeJs**, **Rust**, **Solidity**, **Substrate**, **Ink!**, **Python**, **React**, **AssemblyScript**, **git**
-Some experience: **C++**, **Solana**, **CosmosSDK**, **AWS**
-Interested: **ML**, **AI**
+- Confident: **NodeJs**, **Rust**, **Solidity**, **Substrate**, **Ink!**, **Python**, **React**, **AssemblyScript**, **git**  
+- Some experience: **C++**, **Solana**, **CosmosSDK**, **AWS**  
+- Interested: **ML**, **AI**
 
 # Open source contributions
 ---
