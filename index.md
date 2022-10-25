@@ -44,9 +44,9 @@ Some highlights:
 - Developed pallet that enables filtering transactions and putting chain on emergency mode
 - Led research on storage migration modes, implemented proof-of-concept template for multi-block and lazy storage migrations
 - Took active part on implementing and maintaining pallet that enables NFT operations at protocol level (core feature of Efinity). Also worked on other trademark pallets (marketplace, fuel tanks, etc.)
-- Co-led development of internal tool for easily launching local testnet. Somewhat combination of `parachain-launch` and `zombienet`. Also worked on maintaining and improving CI/CD tools
+- Co-led development of internal tool for easily launching local testnet. Somewhat combination of [`parachain-launch`](https://github.com/open-web3-stack/parachain-launch) and [`zombienet`](https://github.com/paritytech/zombienet). Also worked on maintaining and improving CI/CD tools
 - Helped in XCM integration and simulation tests
-- Helped troubleshooting and debugging issues with running testnet parachain on Rococo
+- Helped troubleshooting and debugging errors testnet parachain on Rococo
 - Wrote integration and smoke tests for parachain with JS and Python
 
 ---
@@ -59,7 +59,7 @@ Some of the highlights of my time at Limechain:
 ***Lending Protocol***
 
 - Implementing, writing and testing smart contracts in [**Ink!**](https://paritytech.github.io/ink/) smart contract language
-- Responsible for implementing Math library
+- Led development of math library - essential for calculations
 - Reduced gas usage by 50% making a critical fix in the implementation of wrapper types
 - Designed and implemented developer documentation
 - Designed several CI/CD pipelines for testing and building projects/libraries
@@ -79,7 +79,8 @@ Some of the highlights of my time at Limechain:
 - Writing unit and benchmark tests
 - Documentation
 
-**Personal projects**
+---
+**Personal projects <br> Blockchain Engineer**
 
 This section lists some of my personal and freelance projects.
 
@@ -93,7 +94,7 @@ A **Web3 Foundation** grant that aims to connect banking interfaces with **Polka
 
 [qaul.net](https://github.com/qaul/qaul.net) is an Internet independent wireless mesh communication app. With qaul.net, you can communicate directly from one device to another. I am a part-time Rust and P2p Engineer here and try to help with the development from time to time. My work mostly revolves around [`rust-libp2p`](https://github.com/libp2p/rust-libp2p) library.
 
-
+---
 ***Decentralized Auctioned NFT Marketplace***
 
 For my senior thesis in Computer Science, I worked on a proof-of-concept project on the topic of *managed decentralization*. The project was aimed to explore how enterprises and companies could benefit from blockchain without compromises on privacy and thoroughput.
@@ -106,6 +107,7 @@ I successfully delivered and demonstrated my proof-of-concept project and receiv
 
 The network and backend was built in **Rust**, consensus and marketplace in **Solidity** and frontend in **React**. Many design and architecture patterns are inspired by **Substrate** and **FileCoin**.
 
+---
 **Upwork and Freelance, January, 2020 - Present, <br>Blockchain and Full Stack developer**
 
 Started my programming career as a freelancer and later picked up **Upwork**. Mostly specialize on projects in the blockchain space and provide full cycle development services as well as consultations.
