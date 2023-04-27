@@ -32,22 +32,24 @@ permalink: /
 
 ![Me](/assets/pfp.jpeg#profile)
 
-Experienced Substrate and web3 developer highly interested in peer-to-peer networks, blockchain scalability and interoperability.
+Experienced Substrate and web3 developer highly interested in peer-to-peer networks, blockchain interoperability and cryptography.
 
 # Experience 
-**Efinity, March, 2021 - Present <br> Rust/Substrate Engineer**
+**Efinity, March, 2021 - Present <br> Core Rust/Substrate Engineer**
 
-[Efinity](https://efinity.io) parachain supports NFTs on a protocol level and makes it easy game studios to easily integrate NFTs and ordinary users to interact with them. I focus on pallet and runtime development with Substrate on **Efinity** parachain. As part of the core enginnering team, actively participate in discussions, code reviews. Efinity is not open source yet.
+[Efinity](https://efinity.io) parachain supports NFTs on a protocol level and helps users easily integrate and interact with NFTs. I focus on pallet and runtime development with Substrate on **Efinity** parachain. As part of the core enginnering team, actively participate in discussions, code reviews and writing specs.
 
 Some highlights:
 
-- Developed pallet that enables filtering transactions and putting chain on emergency mode
 - Led research on storage migration modes, implemented proof-of-concept template for multi-block and lazy storage migrations
-- Took active part on implementing and maintaining pallet that enables NFT operations at protocol level (core feature of Efinity). Also worked on other trademark pallets (marketplace, fuel tanks, etc.)
+- Co-led the work on integrating XCM to our parachain and building trustless bridge for cross-chain token transfers
+- Took active part on implementing and maintaining multi tokens pallet that enables: fungible and non-fungible asset operations at protocol level (core feature of Efinity). Also worked on other trademark pallets (marketplace, fuel tanks, etc.)
+- Took active part in developing staking pallet from scratch
+- Led the development of pallet that enables filtering transactions and putting chain on emergency mode
 - Co-led development of internal tool for easily launching local testnet. Somewhat combination of [`parachain-launch`](https://github.com/open-web3-stack/parachain-launch) and [`zombienet`](https://github.com/paritytech/zombienet). Also worked on maintaining and improving CI/CD tools
-- Helped in XCM integration and simulation tests
-- Helped troubleshooting and debugging errors testnet parachain on Rococo
-- Wrote integration and smoke tests for parachain with JS and Python
+- Research and implement relay chain specific features
+- Helped troubleshooting and debugging errors of nodes
+- Integration and smoke tests for parachain with JS and Python
 
 ---
 **Limechain, June, 2020 - February, 2022 <br>Blockchain Developer**
