@@ -27,15 +27,21 @@ permalink: /
   }
 </style>
 
-### Blockchain and Full Stack Developer
+### Senior Software Engineer
 [GitHub 1](https://github.com/dastansam) | [Github 2](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com) | [Linkedin](https://www.linkedin.com/in/dastanbek-samatov-30ab71128/)
 
 ![Me](/assets/pfp.jpeg#profile)
 
-Experienced Substrate and web3 developer highly interested in peer-to-peer networks, blockchain interoperability and cryptography.
+Experienced Rust and Substrate engineer highly interested in peer-to-peer networks, blockchain interoperability and cryptography.
 
 # Experience 
-**Efinity, March, 2021 - Present <br> Core Rust/Substrate Engineer**
+
+**Freeverse, June, 2023 - Present <br> Senior Rust Engineer**
+
+Freeverse, the dynamic NFT infrastructure platform leading the way in creating User Generated Value (UGV) with digital assets. Living Assets™ provide brands and games with new and novel ways to increase revenue while engaging their customers or players like never before.
+
+---
+**Enjin, March, 2021 - September, 2023 <br> Core Rust/Substrate Engineer**
 
 [Efinity](https://efinity.io) parachain supports NFTs on a protocol level and helps users easily integrate and interact with NFTs. I focus on pallet and runtime development with Substrate on **Efinity** parachain. As part of the core enginnering team, actively participate in discussions, code reviews and writing specs.
 
@@ -92,6 +98,12 @@ A **Web3 Foundation** grant that aims to connect banking interfaces with **Polka
 
 *This project is Work In Progress*
 
+***ISO-8583 Polkadot Integration***
+
+Work in progress.
+
+https://github.com/subclone
+
 ***Qaul.net***
 
 [qaul.net](https://github.com/qaul/qaul.net) is an Internet independent wireless mesh communication app. With qaul.net, you can communicate directly from one device to another. I am a part-time Rust and P2p Engineer here and try to help with the development from time to time. My work mostly revolves around [`rust-libp2p`](https://github.com/libp2p/rust-libp2p) library.
@@ -114,18 +126,6 @@ The network and backend was built in **Rust**, consensus and marketplace in **So
 
 Started my programming career as a freelancer and later picked up **Upwork**. Mostly specialize on projects in the blockchain space and provide full cycle development services as well as consultations.
 
-Some of the projects I was part of:
-
-***Crypto Portfolio Tracker***
-
-Portfolio tracker and exchange platform. Worked on integrating exchange APIs and blockchains.
-
-***Bulk sender contract in Solana and Cosmos***
-
-Port existing **Solidity** contract into **Solana** program and **CosmWASM** smart contract.
-
-*This project is Work In Progress*
-
 ***Substrate chain indexer***
 
 Built personal indexer script for **Substrate** chains. As part of the task, also contributed to open-source library: [**@open-web3js**](https://github.com/open-web3-stack/open-web3.js)
@@ -133,10 +133,6 @@ Built personal indexer script for **Substrate** chains. As part of the task, als
 ***Crypto and Fiat price indexer***
 
 Tool for indexing daily prices of cryptocurrencies and fiat. Open source.
-
-***NFT Marketplace and Gallery***
-
-Built a simple NFT marketplace and gallery.
 
 # Education
 ---
@@ -157,14 +153,15 @@ Built a simple NFT marketplace and gallery.
 # Languages and technologies
 ---
 
-- Confident: **NodeJs**, **Rust**, **Solidity**, **Substrate**, **Ink!**, **Python**, **React**, **AssemblyScript**, **git**  
+- Confident: **Rust**, **NodeJs**, **Solidity**, **Substrate**, **Ink!**, **Python**, **React**, **AssemblyScript**, **git**  
 - Some experience: **C++**, **Solana**, **CosmosSDK**, **AWS**  
 - Interested: **ML**, **AI**
 
 # Open source contributions
 ---
 
-- [Efinity](https://github.com/efinity)
+- [Enjin](https://github.com/enjin)
+- [LAOS](https://github.com/freeverseio/laos)
 - [qaul.net](https://github.com/qaul/qaul.net)
 - [open-web3-js](https://github.com/open-web3-stack/open-web3.js)
 - [Zombienet](https://github.com/paritytech/zombienet)
