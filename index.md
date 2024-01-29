@@ -59,7 +59,7 @@ Some highlights:
 - Heavy focus on multi-block and lazy storage migrations
 - XCM integration between parachains in the Polkadot network.
 - Researched building trustless bridge for cross-chain token transfers, e.g from Ethereum to Polkadot
-- Took active part on implementing core features of Enjing: multi tokens, fuel tanks, marketplace, staking and nomination pools
+- Took active part on implementing core features of Enjin: multi tokens, fuel tanks, marketplace, staking and nomination pools
 - Led the development of infrastracture/tooling pallets, e.g *emergency mode*, *migrations organizer*, etc.
 - Led development of internal tool for easily launching local testnets (wrapper around Zombienet)
 
