@@ -30,7 +30,7 @@ permalink: /
 ### Rust Engineer
 [GitHub 1](https://github.com/dastansam) | [Github 2](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com) | [Linkedin](https://www.linkedin.com/in/dastanbek-samatov-30ab71128/)
 
-![Me](/assets/IMG_0241.jpg)
+<img src="/assets/IMG_0241.jpg" alt="drawing" width="260"/>
 
 Rust and Substrate engineer highly interested in cryptography, peer-to-peer networks and blockchain interoperability
 
@@ -56,14 +56,12 @@ Joined as a core Substrate engineer for formerly [Efinity](https://efinity.io) (
 
 Some highlights:
 
-- Focused on multi-block and lazy storage migrations
-- Worked on successfully integrating XCM between parachains in the Polkadot network.
+- Heavy focus on multi-block and lazy storage migrations
+- XCM integration between parachains in the Polkadot network.
 - Researched building trustless bridge for cross-chain token transfers, e.g from Ethereum to Polkadot
-- Took active part on implementing and maintaining multi tokens pallet that enables: fungible and non-fungible asset operations at protocol level (core feature of Enjin). Also worked on other trademark pallets (*marketplace*, *fuel tanks*, etc.)
-- Took active part in developing staking and nomination pools pallet from scratch
+- Took active part on implementing core features of Enjing: multi tokens, fuel tanks, marketplace, staking and nomination pools
 - Led the development of infrastracture/tooling pallets, e.g *emergency mode*, *migrations organizer*, etc.
-- Led development of internal tool for easily launching local testnets. Somewhat combination of [`parachain-launch`](https://github.com/open-web3-stack/parachain-launch) and [`zombienet`](https://github.com/paritytech/zombienet).
-- Integration and smoke tests for parachain with JS and Python, CI/CD, deployment and debugging of nodes, etc.
+- Led development of internal tool for easily launching local testnets (wrapper around Zombienet)
 
 ---
 **Limechain, June, 2020 - February, 2022 <br>Blockchain Developer**
@@ -76,16 +74,11 @@ Some highlights:
 - Took active part in researching and implementing alternative ways of building Substrate runtimes: [**Subsembly**](https://github.com/LimeChain/subsembly)
 - Worked with [**Ink!**](https://paritytech.github.io/ink/) to write WASM smart contracts
 - Presented **Subsembly** at **Substrate Seminar** podcast and to Substrate Builders Program
-- Designed and implemented developer documentation
-- Designed several CI/CD pipelines for testing and building projects/libraries
 - Mentoring junior developers
 - Reduced gas usage by 50% making a critical fix in Math library
-- Designed and implemented end-to-end testing architecture
 
 ---
 **Personal projects <br> Blockchain Engineer**
-
-This section lists some of my personal and freelance projects.
 
 ***Hyperfridge***
 
@@ -102,8 +95,6 @@ Role:
 
 Personal project to research possible integration of ISO-8583 standard to Polkadot. Successfully delivered first milestone of the grant to Web3 Foundation.
 
-https://github.com/subclone
-
 ***Qaul.net***
 
 [qaul.net](https://github.com/qaul/qaul.net) is an Internet independent wireless mesh communication app. With qaul.net, you can communicate directly from one device to another. I am a part-time Rust and P2p Engineer here and try to help with the development from time to time. My work mostly revolves around integrating [`rust-libp2p`](https://github.com/libp2p/rust-libp2p) library.
@@ -111,22 +102,7 @@ https://github.com/subclone
 ---
 ***Decentralized Auctioned Backends***
 
-For my senior thesis in Computer Science, I worked on a proof-of-concept project on the topic of *managed decentralization*. The project was aimed to explore how enterprises and companies could benefit from blockchain without compromises on privacy and thoroughput.
-
-In the project, the goal was to build a decentralized network of nodes that host a backend for an **NFT Marketplace**. Backend simply serves and matches orders. Marketplace and orders function with the use of **Order Commitments**. 
-
-Consensus of the network is a simple **Auction** protocol smart contract. It is also called a **Proof-of-Donation**. Essentially, whichever node bids the most amount of value to the time slot, will be the winner and **main processor/backend**(validator) at that slot. Nodes are incentivized by commissions from gossiping and matching orders. **Main backend** in a given slot, gets to match all the orders in that slot.
-
-The network and backend was built in **Rust**, consensus and marketplace in **Solidity** and frontend in **React**. Many design and architecture patterns are inspired by **Substrate** and **FileCoin**.
-
----
-**Upwork and Freelance, January, 2020 - Present, <br>Blockchain and Full Stack developer**
-
-Started my programming career as a freelancer and later picked up **Upwork**. Mostly specialize on projects in the blockchain space and provide full cycle development services as well as consultations.
-
-***Substrate chain indexer***
-
-Built personal indexer script for **Substrate** chains. As part of the task, also contributed to open-source library: [**@open-web3js**](https://github.com/open-web3-stack/open-web3.js)
+For my senior thesis in Computer Science, I worked on a proof-of-concept [project](https://github.com/dastansam/auctioned-p2p-backend) on the topic of *managed decentralization*. The project was aimed to explore how enterprises and companies could benefit from blockchain without compromises on privacy and thoroughput.
 
 # Education
 ---
