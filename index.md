@@ -30,7 +30,7 @@ permalink: /
 ### Rust Engineer
 [GitHub 1](https://github.com/dastansam) | [Github 2](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com) | [Linkedin](https://www.linkedin.com/in/dastanbek-samatov-30ab71128/)
 
-![Me](/assets/pfp.jpg)
+![Me](/assets/IMG_0241.jpg)
 
 Rust and Substrate engineer highly interested in cryptography, peer-to-peer networks and blockchain interoperability
 
