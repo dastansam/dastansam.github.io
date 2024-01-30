@@ -19,12 +19,6 @@ permalink: /
   li {
     line-height: 30px;
   }
-
-  img[src*="#profile"] {
-    width: 15%;
-    height: 15%;
-    position: relative;
-  }
 </style>
 
 ### Rust Engineer
