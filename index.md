@@ -28,7 +28,11 @@ Rust and Substrate engineer highly interested in cryptography, peer-to-peer netw
 
 # Experience 
 
-**Freeverse, June, 2023 - Present <br> Senior Rust Engineer**
+**Autonomys (Subspace Labs) April, 2024 - Present <br>Protocol Engineer**
+
+Protocol and Rust engineer working on the decentralized infrastructure for secure, sovereign collaboration between humans and AI. Working on a decoupled execution layer (domains), data sharding, and desktop interface for nodes (farmers). Mostly Rust, some Solidity.
+
+**Freeverse, June, 2023 - April, 2024 <br> Senior Rust Engineer**
 
 Freeverse, the dynamic NFT infrastructure platform leading the way in creating User Generated Value (UGV) with digital assets. Living Assets™ provide brands and games with new and novel ways to increase revenue while engaging their customers or players like never before.
 
@@ -71,6 +75,15 @@ Some highlights:
 
 ---
 **Personal projects <br> Blockchain Engineer**
+
+***Substrate EVM Adapter**
+
+This [project](https://github.com/subclone/subeth) aims to present an alternative approach to EVM compatibility for Substrate chains. The main goals are to improve developer experience and introduce an approach that requires the least amount of changes to the runtime and client. It does so by leveraging the best parts of multiple existing compatibility solutions and other awesome ecosystem tools.
+
+The main components of the project are:
+
+- a standalone ETH RPC adapter that will enable a partial EVM compatibility for Substrate chains
+- a pallet responsible for bridging ETH RPC adapter with the Substrate chain
 
 ***Hyperfridge***
 
@@ -120,6 +133,9 @@ For my senior thesis in Computer Science, I worked on a proof-of-concept [projec
 # Open source contributions
 ---
 
+- [polkadot-sdk](https://github.com/paritytech/polkadot-sdk)
+- [subspace](https://github.com/autonomys/subspace)
+- [space-acres](https://github.com/autonomys/space-acres)
 - [Enjin](https://github.com/enjin)
 - [LAOS](https://github.com/freeverseio/laos)
 - [Hyperfridge chain](https://github.com/element36-io/ocw-ebics)
@@ -129,4 +145,3 @@ For my senior thesis in Computer Science, I worked on a proof-of-concept [projec
 - [Zombienet](https://github.com/paritytech/zombienet)
 - [Subsembly](https://github.com/LimeChain/subsembly)
 - [AssemblyScript SCALE Codec](https://github.com/LimeChain/as-scale-codec)
-- [polkadot-sdk](https://github.com/paritytech/polkadot-sdk)
