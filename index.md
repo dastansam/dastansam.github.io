@@ -22,15 +22,16 @@ permalink: /
 </style>
 
 ### Rust Engineer
-[GitHub 1](https://github.com/dastansam) | [Github 2](https://github.com/dastanfv) | [Email](mailto:dastanbeksamatov@gmail.com) | [Linkedin](https://www.linkedin.com/in/dastanbek-samatov-30ab71128/) | [StackExchange](https://substrate.stackexchange.com/users/2005/dastansam)
+[GitHub 1](https://github.com/dastansam) | [Github 2](https://github.com/dastanbeksamatov) | [Email](mailto:dastanbeksamatov@gmail.com) | [Linkedin](https://www.linkedin.com/in/dastanbek-samatov/) | [StackExchange](https://substrate.stackexchange.com/users/2005/dastansam)
 
-Rust and Substrate engineer highly interested in cryptography, peer-to-peer networks and blockchain interoperability
+Experienced protocol and backend engineer, in Rust. Currently interested in blockchain interoperability and ZK.
 
 # Experience 
 
 **Autonomys (Subspace Labs) April, 2024 - Present <br>Protocol Engineer**
 
-Protocol and Rust engineer working on the decentralized infrastructure for secure, sovereign collaboration between humans and AI. Working on a decoupled execution layer (domains), data sharding, and desktop interface for nodes (farmers). Mostly Rust, some Solidity.
+Protocol and Rust engineer working on the decentralized infrastructure for secure, sovereign collaboration between humans and AI. Focus on protocol, backend and desktop development using Substrate and GTK4.
+Led the development of custom execution layers: EVM compatible domain - Nova EVM and domain for identity system - Auto ID. Maintaining and developing Space Acres - desktop application for running a farmer node.
 
 **Freeverse, June, 2023 - April, 2024 <br> Senior Rust Engineer**
 
@@ -133,7 +134,7 @@ For my senior thesis in Computer Science, I worked on a proof-of-concept [projec
 # Open source contributions
 ---
 
-- [polkadot-sdk](https://github.com/paritytech/polkadot-sdk)
+- [polkadot-sdk](https://github.com/paritytech/polkadot-sdk/pulls/dastansam)
 - [subspace](https://github.com/autonomys/subspace)
 - [space-acres](https://github.com/autonomys/space-acres)
 - [Enjin](https://github.com/enjin)
@@ -141,7 +142,6 @@ For my senior thesis in Computer Science, I worked on a proof-of-concept [projec
 - [Hyperfridge chain](https://github.com/element36-io/ocw-ebics)
 - [Hyperfridge-risc0](https://github.com/element36-io/hyperfridge-r0)
 - [qaul.net](https://github.com/qaul/qaul.net)
-- [open-web3-js](https://github.com/open-web3-stack/open-web3.js)
 - [Zombienet](https://github.com/paritytech/zombienet)
 - [Subsembly](https://github.com/LimeChain/subsembly)
 - [AssemblyScript SCALE Codec](https://github.com/LimeChain/as-scale-codec)
