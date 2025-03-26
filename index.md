@@ -39,8 +39,7 @@ Freeverse, the dynamic NFT infrastructure platform leading the way in creating U
 
 Role:
 
-- Leading the development of LAOS EVM-based parachain
-- Successfully launched a parachain on Kusama: KLAOS
+- Leading the development of LAOS EVM-based parachain: deployed on Polkadot and Kusama
 - Designing and developing precompiles, smart contracts and other key EVM features of the chain
 - Leading the XCM integration with other parachains
 - Researching and building POC trustless bridge between a Substrate solochain and a Polkadot parachain
@@ -55,10 +54,10 @@ Some highlights:
 
 - Heavy focus on multi-block and lazy storage migrations
 - XCM integration between parachains in the Polkadot network.
-- Researched building trustless bridge for cross-chain token transfers, e.g from Ethereum to Polkadot
-- Took active part on implementing core features of Enjin: multi tokens, fuel tanks, marketplace, staking and nomination pools
+- Researched building trustless bridge for cross-chain token transfers, from Ethereum to Polkadot
+- Designed and implemented core features of Enjin: multi tokens, fuel tanks, marketplace, staking and nomination pools
 - Led the development of infrastracture/tooling pallets, e.g *emergency mode*, *migrations organizer*, etc.
-- Led development of internal tool for easily launching local testnets (wrapper around Zombienet)
+- Led development of internal developer tools
 
 ---
 **Limechain, June, 2020 - February, 2022 <br>Blockchain Developer**
@@ -105,11 +104,6 @@ Personal project to research possible integration of ISO-8583 standard to Polkad
 
 [qaul.net](https://github.com/qaul/qaul.net) is an Internet independent wireless mesh communication app. With qaul.net, you can communicate directly from one device to another. I am a part-time Rust and P2p Engineer here and try to help with the development from time to time. My work mostly revolves around integrating [`rust-libp2p`](https://github.com/libp2p/rust-libp2p) library.
 
----
-***Decentralized Auctioned Backends***
-
-For my senior thesis in Computer Science, I worked on a proof-of-concept [project](https://github.com/dastansam/auctioned-p2p-backend) on the topic of *managed decentralization*. The project was aimed to explore how enterprises and companies could benefit from blockchain without compromises on privacy and thoroughput.
-
 # Education
 ---
 
@@ -119,6 +113,11 @@ For my senior thesis in Computer Science, I worked on a proof-of-concept [projec
 - First place at university Math contest among Math department students
 - Participant of computational olympiads
 - Senior thesis with **excellent** mark
+
+**Polkadot Blockchain Academy, May 2024 - June 2024, Course**
+
+- Protocol, on-chain track
+- Contributions to Polkadot-SDK
 
 # Activities
 ---
