@@ -1,0 +1,551 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dastanbek Samatov — Rust Engineer</title>
+  <meta name="description" content="Dastanbek Samatov — Rust engineer. RPC infrastructure, blockchain runtimes & applied cryptography." />
+  <meta name="author" content="Dastanbek Samatov" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dastanbek Samatov — Rust Engineer" />
+  <meta property="og:description" content="Rust engineer. RPC infrastructure, blockchain runtimes & applied cryptography." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dastansam.github.io" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg:        #0c0e12;
+      --bg-soft:   #12151b;
+      --panel:     #161a22;
+      --border:    #232a36;
+      --text:      #e6e9ef;
+      --muted:     #9aa4b2;
+      --faint:     #6b7585;
+      --accent:    #ff7a45;   /* rust orange */
+      --accent-dim:#c9572d;
+      --link:      #7aa2ff;
+      --max:       820px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- Hero ---------- */
+    header.hero {
+      border-bottom: 1px solid var(--border);
+      background:
+        radial-gradient(900px 320px at 15% -10%, rgba(255,122,69,0.10), transparent 70%),
+        var(--bg);
+      padding: 72px 0 56px;
+    }
+
+    .hero-inner {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+
+    .avatar {
+      width: 116px;
+      height: 116px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 25%;
+      border: 2px solid var(--border);
+      flex-shrink: 0;
+      box-shadow: 0 0 0 4px rgba(255,122,69,0.08);
+    }
+
+    .hero h1 {
+      margin: 0 0 6px;
+      font-size: 2.15rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .hero .role {
+      color: var(--accent);
+      font-weight: 500;
+      font-size: 0.95rem;
+      margin: 0 0 4px;
+    }
+
+    .hero .loc {
+      color: var(--faint);
+      font-size: 0.85rem;
+      margin: 0;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .links a {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--bg-soft);
+      transition: border-color .15s ease, color .15s ease, transform .15s ease;
+    }
+
+    .links a:hover {
+      color: var(--text);
+      border-color: var(--accent-dim);
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    .summary {
+      margin-top: 28px;
+      color: var(--muted);
+      max-width: 68ch;
+    }
+    .summary strong { color: var(--text); font-weight: 600; }
+
+    /* ---------- Sections ---------- */
+    section { padding: 48px 0; border-bottom: 1px solid var(--border); }
+    section:last-of-type { border-bottom: none; }
+
+    h2.section-title {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--faint);
+      margin: 0 0 28px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2.section-title::before {
+      content: "";
+      width: 7px; height: 7px;
+      background: var(--accent);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ---------- Skills ---------- */
+    .skills { display: grid; gap: 14px; }
+    .skill-row {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 16px;
+      align-items: baseline;
+    }
+    .skill-label {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.78rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag {
+      font-size: 0.82rem;
+      color: var(--muted);
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 10px;
+    }
+
+    /* ---------- Experience timeline ---------- */
+    .job {
+      position: relative;
+      padding: 0 0 30px 26px;
+      border-left: 1px solid var(--border);
+    }
+    .job:last-child { padding-bottom: 0; }
+    .job::before {
+      content: "";
+      position: absolute;
+      left: -5px; top: 6px;
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      background: var(--bg);
+      border: 2px solid var(--faint);
+    }
+    .job.current::before {
+      background: var(--accent);
+      border-color: var(--accent);
+      box-shadow: 0 0 0 4px rgba(255,122,69,0.18);
+    }
+
+    .job-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 8px 12px;
+      margin-bottom: 4px;
+    }
+    .job-co { font-weight: 600; font-size: 1.05rem; }
+    .job-role { color: var(--accent); font-size: 0.9rem; }
+    .job-date {
+      margin-left: auto;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.75rem;
+      color: var(--faint);
+      white-space: nowrap;
+    }
+    .badge {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--accent-dim);
+      border-radius: 4px;
+      padding: 1px 6px;
+    }
+    .job p { margin: 6px 0 0; color: var(--muted); font-size: 0.93rem; }
+    .job ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); font-size: 0.93rem; }
+    .job ul li { margin: 3px 0; }
+
+    .subhead {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--faint);
+      margin: 4px 0 18px;
+    }
+
+    /* ---------- Projects ---------- */
+    .project {
+      padding: 18px 0;
+      border-top: 1px solid var(--border);
+    }
+    .project:first-of-type { border-top: none; padding-top: 0; }
+    .project-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+    .project-name { font-weight: 600; }
+    .project-date {
+      margin-left: auto;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.72rem;
+      color: var(--faint);
+    }
+    .project p { margin: 6px 0 0; color: var(--muted); font-size: 0.92rem; }
+
+    /* ---------- Education ---------- */
+    .edu-item { margin-bottom: 16px; }
+    .edu-item:last-child { margin-bottom: 0; }
+    .edu-school { font-weight: 600; }
+    .edu-meta { color: var(--faint); font-size: 0.85rem; font-family: "JetBrains Mono", monospace; }
+    .edu-detail { color: var(--muted); font-size: 0.9rem; }
+
+    /* ---------- Footer ---------- */
+    footer {
+      padding: 40px 0 56px;
+      color: var(--faint);
+      font-size: 0.8rem;
+      font-family: "JetBrains Mono", monospace;
+    }
+    footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 620px) {
+      .hero-inner { flex-direction: column; text-align: center; gap: 20px; }
+      .links { justify-content: center; }
+      .summary { text-align: left; }
+      .skill-row { grid-template-columns: 1fr; gap: 6px; }
+      .job-date { margin-left: 0; width: 100%; }
+      .hero h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <img class="avatar" src="assets/IMG_0241.jpg" alt="Dastanbek Samatov" />
+      <div>
+        <h1>Dastanbek Samatov</h1>
+        <p class="role mono">Rust Engineer · RPC Infrastructure, Runtimes &amp; Cryptography</p>
+        <p class="loc mono">Barcelona, Spain · works ET hours</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <p class="summary">
+        Mid-senior <strong>Rust</strong> engineer with <strong>6+ years</strong> shipping production
+        blockchain protocols, RPC/API infrastructure, and cryptographic systems. I build at the
+        <strong>runtime and node level</strong> — custom blockchain runtimes, JSON-RPC services,
+        on-chain data indexing, and applied cryptography — working directly with client teams under a
+        test-driven, documentation-first process. Currently ramping on <strong>Solana &amp; the SVM
+        runtime</strong> (Anchor, RPC/Geyser-style indexing).
+      </p>
+      <nav class="links mono">
+        <a href="https://github.com/dastansam">GitHub</a>
+        <a href="https://github.com/dastanbeksamatov">GitHub (alt)</a>
+        <a href="mailto:dastanbeksamatov@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/dastanbek-samatov/">LinkedIn</a>
+        <a href="https://substrate.stackexchange.com/users/2005/dastansam">StackExchange</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="wrap">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills">
+          <div class="skill-row">
+            <span class="skill-label">Languages</span>
+            <div class="tags">
+              <span class="tag">Rust</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Solidity</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Solana</span>
+            <div class="tags">
+              <span class="tag">SVM runtime</span>
+              <span class="tag">Anchor</span>
+              <span class="tag">JSON-RPC</span>
+              <span class="tag">on-chain indexing</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">RPC &amp; APIs</span>
+            <div class="tags">
+              <span class="tag">JSON-RPC services</span>
+              <span class="tag">node RPC adapters</span>
+              <span class="tag">data indexing</span>
+              <span class="tag">Rust API dev</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Cryptography</span>
+            <div class="tags">
+              <span class="tag">Zero-knowledge proofs</span>
+              <span class="tag">post-quantum crypto</span>
+              <span class="tag">private transactions</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Runtimes</span>
+            <div class="tags">
+              <span class="tag">VM / runtime internals</span>
+              <span class="tag">Substrate</span>
+              <span class="tag">EVM</span>
+              <span class="tag">consensus</span>
+              <span class="tag">storage</span>
+              <span class="tag">libp2p (P2P)</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Practice</span>
+            <div class="tags">
+              <span class="tag">Test-Driven Development</span>
+              <span class="tag">technical docs</span>
+              <span class="tag">async Rust (tokio)</span>
+              <span class="tag">remote client collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="wrap">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="job current">
+          <div class="job-head">
+            <span class="job-co">qaul.net</span>
+            <span class="badge">Current</span>
+            <span class="job-role">Senior Rust Engineer</span>
+            <span class="job-date">2022 — Present</span>
+          </div>
+          <p>
+            Lead contributor on the networking and cryptography stack of an internet-independent,
+            peer-to-peer messenger built on <strong>libp2p</strong> (Rust + Flutter). qaul.net lets
+            devices communicate directly with one another, with no servers and no internet.
+            <a href="https://github.com/qaul/qaul.net">qaul/qaul.net&nbsp;↗</a>
+          </p>
+        </div>
+
+        <p class="subhead">Independent Rust Engineer &amp; Consultant · 2022 — 2026</p>
+
+        <div class="job">
+          <div class="job-head">
+            <span class="job-co">Quantus Network</span>
+            <span class="job-role">Senior Rust Engineer</span>
+            <span class="job-date">2025 — 2026</span>
+          </div>
+          <p>
+            Built a <strong>post-quantum</strong> blockchain runtime; authored reversible transactions
+            and implemented private transactions using zero-knowledge proofs — heavy applied-cryptography
+            and security work.
+          </p>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <span class="job-co">Autonomys (Subspace Labs)</span>
+            <span class="job-role">Protocol Engineer</span>
+            <span class="job-date">2024 — 2025</span>
+          </div>
+          <p>
+            Developed protocol, node backend, and RPC/desktop client features for a decentralized
+            storage network, working across the runtime and node-services layers.
+          </p>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <span class="job-co">Freeverse</span>
+            <span class="job-role">Senior Rust Engineer</span>
+            <span class="job-date">2023 — 2024</span>
+          </div>
+          <p>
+            Led development of <strong>LAOS</strong>, an EVM-based Layer 1 for cross-chain digital
+            assets — runtime design, RPC compatibility, and on-chain data handling.
+          </p>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <span class="job-co">Enjin</span>
+            <span class="job-role">Rust Engineer</span>
+            <span class="job-date">2022 — 2024</span>
+          </div>
+          <p>
+            Launched a layer-zero relay chain with parachains; built lazy and multi-block storage
+            migrations, cross-chain messaging (XCM), a trustless bridge, and internal tooling.
+          </p>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <span class="job-co">Polimec</span>
+            <span class="job-role">Senior Substrate Engineer</span>
+            <span class="job-date">2025</span>
+          </div>
+          <p>
+            Delivered core runtime features for the Polimec on-chain fundraising protocol.
+          </p>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <span class="job-co">Limechain</span>
+            <span class="job-role">Blockchain Engineer</span>
+            <span class="job-date">2020 — 2022</span>
+          </div>
+          <p>
+            Owned features end-to-end from requirements through design, implementation, and testing.
+            Delivered <strong>3 Web3 Foundation grants</strong> and researched alternative approaches
+            to building blockchain runtimes.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="wrap">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project">
+          <div class="project-head">
+            <span class="project-name">SubEth — Ethereum JSON-RPC adapter &amp; indexer</span>
+            <span class="project-date">2024 — Present</span>
+          </div>
+          <p>
+            A Rust service that lets any blockchain expose a standard Ethereum JSON-RPC interface —
+            translating and indexing on-chain data so existing developer tooling works unchanged.
+            <a href="https://github.com/subclone/subeth">subclone/subeth&nbsp;↗</a>
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project-head">
+            <span class="project-name">Open Source</span>
+            <span class="project-date">2021 — Present</span>
+          </div>
+          <p>
+            Contributor to
+            <a href="https://github.com/paritytech/polkadot-sdk/pulls/dastansam">polkadot-sdk</a>,
+            <a href="https://github.com/paritytech/substrate">substrate</a>,
+            <a href="https://github.com/alloy-rs/alloy">alloy</a>, and
+            <a href="https://github.com/Relm4/Relm4">relm4</a>.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="wrap">
+        <h2 class="section-title">Education &amp; Training</h2>
+
+        <div class="edu-item">
+          <div class="edu-school">American University in Bulgaria</div>
+          <div class="edu-meta">B.Sc. Computer Science &amp; Mathematics · 2017 — 2021</div>
+          <div class="edu-detail">Minor in Mathematics · 1st place, university math contest · senior thesis with excellent mark.</div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-school">Polkadot Blockchain Academy</div>
+          <div class="edu-meta">Protocol / On-chain Track · 2024</div>
+          <div class="edu-detail">Protocol track with contributions to the Polkadot SDK.</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Dastanbek Samatov</span>
+      <span>Built with Rust-grade attention to detail.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
